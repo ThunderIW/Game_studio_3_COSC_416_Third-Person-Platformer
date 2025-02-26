@@ -42,7 +42,7 @@ The game consists of a **large flat plane** with obstacles:
 - 🎮 **GameManager Implementation**: Handles scoring and coin logic efficiently.  
 
 ## Video Demo 📹  
-[![Watch the video](https://img.youtube.com/vi/rLPyWQTYMyA/maxresdefault.jpg)](https://youtu.be/rLPyWQTYMyA)  
+[![Watch the video]()  
 
 ### [Click here to watch the full demo](https://youtu.be/rLPyWQTYMyA)  
 
