@@ -50,4 +50,4 @@ The game consists of a **large flat plane** with obstacles:
 
 1. Clone this repository:  
    ```sh
-   git clone https://github.com/your-username/third-person-platformer.git
+   git clone https://github.com/ThunderIW/Game_studio_3_COSC_416.git
