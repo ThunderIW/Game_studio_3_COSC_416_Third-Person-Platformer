@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.Rendering;
 
 public class InputManager : MonoBehaviour
 {
     public UnityEvent<Vector2> OnMove = new UnityEvent<Vector2>();
     public UnityEvent OnJump = new UnityEvent();
+    public UnityEvent OnExit = new UnityEvent();
+
     void Update()
     {
         Vector2 inputVector = Vector2.zero;
@@ -18,16 +19,14 @@ public class InputManager : MonoBehaviour
         if (inputVector != Vector2.zero)
         {
             OnMove?.Invoke(inputVector);
-
         }
 
-        // 🔴 This line was missing! It invokes the event to notify the playerController.
-        if (Input.GetKeyUp(KeyCode.Space))
+        // ✅ Fix: Use `GetKeyDown()` instead of `GetKeyUp()`
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             OnJump?.Invoke();
-
         }
-
+       
 
     }
 }

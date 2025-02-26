@@ -167,6 +167,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnJump:
+    m_PersistentCalls:
+      m_Calls: []
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &761484733865770703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,3 +187,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerRB: {fileID: 5504467877898014463}
   playerMovementSpeed: 2
+  jumpForce: 5
+  freeLookCamera: {fileID: 0}
+  aimingIndicator: {fileID: 0}

@@ -7,9 +7,6 @@ public class CoinSpinner : MonoBehaviour
     void Update()
     {
         // Rotate the coin around the Y-axis forever
-        while (true)
-        {
-            transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f, Space.Self);
-        }
+        transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f, Space.Self);
     }
 }
