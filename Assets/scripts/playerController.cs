@@ -44,11 +44,6 @@ public class playerController : MonoBehaviour
         Vector3 inputXZPlane = new(input.x, 0, input.y);
         PlayerRB.AddForce((aimingIndicator.forward * input.y + aimingIndicator.right * input.x) * playerMovementSpeed, ForceMode.Acceleration);
 
-
-
-
-
-
     }
 
 
