@@ -8,6 +8,7 @@ TagManager:
   - Platform
   - coin
   - Coins
+  - CoinGroup
   layers:
   - Default
   - TransparentFX

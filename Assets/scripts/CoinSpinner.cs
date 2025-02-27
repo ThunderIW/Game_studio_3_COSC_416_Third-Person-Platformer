@@ -2,11 +2,16 @@ using UnityEngine;
 
 public class CoinSpinner : MonoBehaviour
 {
-    [SerializeField] private float rotationSpeed = 100f; // Speed of rotation
+    [SerializeField] private int rotationSpeedValue = 100; // Editable in Inspector
+    private Vector3 rotationSpeed;
+
+    void Start()
+    {
+        rotationSpeed = new Vector3(0, rotationSpeedValue, 0);
+    }
 
     void Update()
     {
-        // Rotate the coin around the Y-axis forever
-        transform.Rotate(0f, rotationSpeed * Time.deltaTime, 0f, Space.Self);
+        transform.Rotate(rotationSpeed * Time.deltaTime);
     }
 }

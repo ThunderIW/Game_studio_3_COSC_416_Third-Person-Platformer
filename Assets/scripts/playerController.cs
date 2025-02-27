@@ -6,12 +6,14 @@ public class playerController : MonoBehaviour
     [SerializeField] private Rigidbody PlayerRB;
     [SerializeField] private float playerMovementSpeed = 5f;
     [SerializeField] private float jumpForce = 5f;
+    [SerializeField] private float dashForce = 9f;
     [SerializeField] private CinemachineCamera freeLookCamera; // ✅ Fixed Cinemachine type
     [SerializeField] private Transform aimingIndicator; // 🎯 Aiming system
+    [SerializeField] private Transform startingPos;
 
     private int jumpCount = 0;
     private int maxJumps = 2;
-    private Vector2 inputDirection = Vector2.zero;
+    
 
     private void Start()
     {
@@ -46,7 +48,14 @@ public class playerController : MonoBehaviour
 
     }
 
+    public void DashPlayer()
+    {
+        Vector3 dashDirection = aimingIndicator.forward;
+        dashDirection.y = 0;
+        PlayerRB.AddForce(dashDirection*dashForce,ForceMode.Impulse);
+    }
 
+   
 
 
 
