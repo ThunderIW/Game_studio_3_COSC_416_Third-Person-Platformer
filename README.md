@@ -15,11 +15,12 @@ This project is a **Unity-based Third-Person Platformer** where the player moves
 
 ## Controls 🎮  
 
-| Key      | Action                        |
+| Key      | Action                       |
 |----------|------------------------------|
 | `WASD`   | Move character               |
 | `Space`  | Jump / Double Jump           |
-| `Mouse`  | Rotate Camera                 |
+| `Mouse`  | Rotate Camera                |
+|`left SHIFT` | Dash                       |
 
 ## Environment & Gameplay 🌍  
 
@@ -42,9 +43,9 @@ The game consists of a **large flat plane** with obstacles:
 - 🎮 **GameManager Implementation**: Handles scoring and coin logic efficiently.  
 
 ## Video Demo 📹  
-[![Watch the video]()  
+[![Watch the video](https://img.youtube.com/vi/THt_sIrvXAw/maxresdefault.jpg)](https://youtu.be/THt_sIrvXAw)
 
-### [Click here to watch the full demo](https://youtu.be/rLPyWQTYMyA)  
+### [Click here to watch demo video](https://youtu.be/THt_sIrvXAw)
 
 ## Installation 🏗  
 
