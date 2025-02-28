@@ -37,7 +37,6 @@ The game consists of a **large flat plane** with obstacles:
 
 ## Development 🛠  
 
-- 🔄 **Version Control**: Maintains a proper **Git history** with detailed commit messages.  
 - 🎬 **Third-Person Free-Look Camera**: Uses **Cinemachine** for smooth camera control.  
 - 🎮 **GameManager Implementation**: This efficiently handles scoring and coin logic.  
 
