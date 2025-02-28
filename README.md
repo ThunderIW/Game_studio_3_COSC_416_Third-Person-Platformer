@@ -2,7 +2,6 @@
 
 This project is a **Unity-based Third-Person Platformer** where the player moves in the **direction of the camera**, jumps across platforms, and collects coins to increase their score.
 
-<p>Please switch to <strong>Working System branch</strong> </p>
 
 ## Features ✨  
 
@@ -29,7 +28,7 @@ The game consists of a **large flat plane** with obstacles:
 | Object       | Functionality                                  |
 |-------------|----------------------------------------------|
 | **Platforms** | Boxes placed to create jumping challenges  |
-| **Coins**     | Collectibles placed on platforms           |
+| **Coins**     | Collectibles placed on platforms; when player collects then coin sound effect  is triggered  |
 | **Boundaries** | Invisible walls prevent the player from falling off |
 
 ## Bonus Features 🌟  
@@ -40,7 +39,7 @@ The game consists of a **large flat plane** with obstacles:
 
 - 🔄 **Version Control**: Maintains a proper **Git history** with detailed commit messages.  
 - 🎬 **Third-Person Free-Look Camera**: Uses **Cinemachine** for smooth camera control.  
-- 🎮 **GameManager Implementation**: Handles scoring and coin logic efficiently.  
+- 🎮 **GameManager Implementation**: This efficiently handles scoring and coin logic.  
 
 ## Video Demo 📹  
 [![Watch the video](https://img.youtube.com/vi/THt_sIrvXAw/maxresdefault.jpg)](https://youtu.be/THt_sIrvXAw)
